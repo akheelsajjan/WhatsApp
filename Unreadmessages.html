@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--Stylesheets-->
+        <!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+        
+        <title>WhatsApp</title>
+    </head>
+    <body style="background-color:rgb(146, 165, 172)">
+           
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal Showcase</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                           <h4> This is Modal.<br><b>Please check other features as well!!</b></h4>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+        <div class="container" style="background-color: lightgrey;">
+            <div class="row">
+                <div class="col-lg-4 main">
+                    <div class="row header">
+                        <nav class="navbar  bg-dark navbar-dark" style="width: 100%;">
+                            <a class="navbar-brand" href="#"  data-toggle="tooltip" data-placement="right" title="This is WhatsApp">WhatsApp</a>
+                            <div class="dropdown ">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Dropdown-link
+                                          </a>
+                                    
+                                  
+                                    <div class="dropdown-menu ">
+                                      <a class="dropdown-item" href="message.html">Message</a>
+                                      <a class="dropdown-item" href="profilepic.html">Change DP</a>
+                                      <a class="dropdown-item" href="index.html">Main Page</a>
+                                    </div>
+                                  </div>
+                        </nav>
+                        <input type="text" name="search" placeholder="Search..">
+                        <div class="w-100"></div>
+                    </div>
+                    <div class="container-fluid chats">
+                        <div class="row">
+                          <div class="col chat">
+                            <div class="container">
+                                <div class="row">
+                                  <div class="col-3 chat-attributes" >
+                                    <img src="Profile.jpg" id="dp" align="middle">
+                                  </div>
+                                  <div class="col-5 chat-attributes">
+                                    <p style="font-size: 120%;" id="chat-name;">CSE 7A</p>
+                                    <p style="font-size: 80%">Me: Those..</p>
+                                  </div>
+                                  <div class="col-4 chat-attributes">
+                                    <p style="font-size: 80%;margin-top: 5px;margin-left:70%">8:30PM</p>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="w-100"></div>
+                          <div class="col chat">
+                            <div class="container">
+                                <div class="row">
+                                  <div class="col-3 chat-attributes" >
+                                    <img src="Profile.jpg" id="dp" align="middle">
+                                  </div>
+                                  <div class="col-5 chat-attributes">
+                                    <p style="font-size: 120%" id="chat-name">Family</p>
+                                    <p style="font-size: 80%">Uncle: Gm</p>
+                                    
+                                  </div>
+                                  <div class="col-4 chat-attributes">
+                                    <p style="font-size: 80%;margin-top: 5px;margin-left:70%">5:30AM</p>
+                                    <span id="unread" style="margin-left:70%">2</span>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="w-100"></div>
+                          <div class="col chat">
+                            <div class="container">
+                                <div class="row">
+                                  <div class="col-3 chat-attributes" >
+                                    <img src="Profile.jpg" id="dp" align="middle">
+                                  </div>
+                                  <div class="col-5 chat-attributes">
+                                    <p style="font-size: 120%" id="chat-name">School</p>
+                                    <p style="font-size: 80%">friend: hi</p>
+                                  </div>
+                                  <div class="col-4 chat-attributes">
+                                    <p style="font-size: 80%;margin-top: 5px;margin-left:70%">3:00PM</p>
+                                    <span  id="unread" style="margin-left:70%">5</span>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="w-100"></div>
+                          <div class="col chat">
+                            <div class="container">
+                                <div class="row">
+                                  <div class="col-3 chat-attributes" >
+                                    <img src="Profile.jpg" id="dp" align="middle">
+                                  </div>
+                                  <div class="col-5 chat-attributes">
+                                    <p style="font-size: 120%" id="chat-name">Boys</p>
+                                    <p style="font-size: 80%">Me: k</p>
+                                  </div>
+                                  <div class="col-4 chat-attributes">
+                                    <p style="font-size: 80%;margin-top: 5px;margin-left:70%">8:30PM</p>
+                                    <span  id="unread" style="margin-left:70%">7</span>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="w-100"></div>
+                          <div class="col chat">
+                            <div class="container">
+                                <div class="row">
+                                  <div class="col-3 chat-attributes" >
+                                    <img src="Profile.jpg" id="dp" align="middle">
+                                  </div>
+                                  <div class="col-5 chat-attributes">
+                                    <p style="font-size: 120%"id="chat-name">CSE 7A</p>
+                                    <p style="font-size: 80%">Me: k</p>
+                                  </div>
+                                  <div class="col-4 chat-attributes">
+                                    <p style="font-size: 80%;margin-top: 5px;margin-left:70%">8:30PM</p>
+                                    <span  id="unread" style="margin-left:70%">1</span>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="w-100"></div>
+                          <div class="col chat">
+                            <div class="container">
+                                <div class="row">
+                                  <div class="col-3 chat-attributes" >
+                                    <img src="Profile.jpg" id="dp" align="middle">
+                                  </div>
+                                  <div class="col-5 chat-attributes">
+                                    <p style="font-size: 120%" id="chat-name">CSE 7A</p>
+                                    <p style="font-size: 80%">Me: k</p>
+                                  </div>
+                                  <div class="col-4 chat-attributes">
+                                    <p style="font-size: 80%;margin-top: 5px;margin-left:70%">8:30PM</p>
+                                     <span style="margin-left:70%"></span>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                        
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-8 d-none d-lg-block main">
+                   <div class="row header">
+                        <nav class="navbar  bg-dark navbar-dark" style="width: 100%;">
+                           <div class="parent">
+                                <div class="item">
+                                    <img src="Profile.jpg" id="Profile">
+                                </div>
+                                <div class="item">
+                                    <p style="font-size:1.2em;color: white" id="chat-name">CSE 7A</p>
+                                    <p style="font-size: 0.8em; text-align: center;color: white">Aizu,Aman,Anirudh,Antraj...</p>
+                                </div>
+                            </div>
+                            <div class="image">
+                                    <img src="paperclip.png" id="paperclip" style="height: 40px;"  data-container="body" data-toggle="popover" data-placement="left" data-content="This is to just show case the usage of popovers. ">
+                                    <img src="menu.png" style="height: 30px;" data-toggle="modal" data-target="#exampleModal">
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="parents">
+                        <div class="items ">
+                            <div id="text">
+                              <h5><ins>Me</ins></h5>
+                                 <p>I built this whatsapp using HTML,CSS,Bootstrap</p>
+                            </div>
+                        </div>
+                        <div class="items">
+                            <div id="text">
+                              <h5><ins>Kripa</ins></h5>
+                                <p>Its nice</p>
+                            </div>    
+                        </div>
+                        <div class="items">
+                            <div id="text">
+                              <h5><ins>Anup</ins></h5>
+                                <p>Good job!! I liked those popovers</p>
+                            </div>
+                        </div>
+                        <div class="items">
+                            <div id="text">
+                                <h5><ins>Me</ins></h5>
+                                <p >Those are called as Modals</p>
+                            </div>
+                        </div>
+                       
+                       
+                    </div>   
+                    <div class="container">
+                      <div class="footer">
+                       <div class="input" style="padding: 1% 10% 5% 2%">
+                        <input type="text" style="font-size:14pt;" size="50" placeholder="Type here">
+                        <br>
+                        <button type="button" class="btn btn-success">Send</button>
+                    </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+      
+        <!--Scripts-->
+        <!--<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>-->
+        <!--<script src="node_modules/popper.js/dist/popper.min.js"></script>-->
+        <!--<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script>
+                $(function () {
+                $('[data-toggle="popover"]').popover()
+                })
+
+              $('#myModal').on('shown.bs.modal', function () {
+                    $('#myInput').trigger('focus')
+                })
+              
+                
+                
+              </script>
+    </body>
+</html>
+
+

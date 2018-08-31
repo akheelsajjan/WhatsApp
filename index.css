@@ -1,0 +1,201 @@
+.body{
+    
+}
+
+.main{
+    border-style: solid;
+    height: 574px;
+}
+
+.header{
+    
+    height: 100px;
+    
+}
+
+.dropdown-item:hover{
+    background-color: red;
+}
+
+#menu-icon{
+    height:25px;
+    width:25px;
+}
+
+.parent{
+    display: flex
+}
+
+.item{
+   
+    height: 75px
+}
+
+
+#Profile{
+    border-radius:40px;
+    height:70px;
+    width:70px;
+}
+
+.image{
+   
+    margin-top:5px;
+}
+
+
+
+input[type=text] {
+    width: 130px;
+    border-bottom: solid;
+    border-right: none;
+    border-top:none;
+    background-color: white;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
+.chats{
+   
+    overflow: auto;
+    margin-left:-15px;
+    margin-right: -15px;
+    width:auto;
+    overflow:auto;
+    height: 468px;
+   
+}
+
+.chat{
+    margin-top: 8px;
+    border-bottom: solid;
+    margin-left:0px;
+    margin-right: -15px;
+    width:auto;
+    height:80px;
+}
+
+.chat-attributes{
+    
+    height: 100px;
+}
+
+#dp{
+    border-radius:40px;
+    height:70px;
+    width:70px;  
+    border-style: solid;
+    border-color:darkslategray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.parents{
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: -2.5%;
+    width: 105%;
+    overflow: auto;
+    height:65%;
+}
+
+
+.items{
+    width:45%;
+    padding: 1% 1% 1% 1%;
+}
+
+#text{
+    background-color: rgba(18, 129, 92, 0.404);
+    padding-top:1%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+}
+
+
+.items:nth-child(1){
+   align-self: flex-end;
+   height: auto;
+     width: 60%;
+}
+
+.items:nth-child(2){
+    height: auto;
+    width: 20%;
+ }
+ .items:nth-child(3){
+    height: auto;
+ }
+ .items:nth-child(4){
+    height: auto;
+    align-self: flex-end;
+ }
+
+ .footer {
+   
+    
+    height:99px;
+    margin-left: -30px;
+    width: 110.5%;
+    background-color :darkslategray;
+    color: white;
+    text-align: center;
+}
+
+.footer2{
+      
+    height:99px;
+    margin-left: -30px;
+    width: auto;
+    margin-right: -30px;
+    background-color :darkslategray;
+    color: white;
+    text-align: center;
+}
+ 
+.chat-name{
+    font:bold
+}
+
+#profilepic{
+    margin-top: 10px;
+    height: 250px;
+    width: 250px;
+    border-radius: 130px;
+    border-style: solid;
+    border-color: darkslategray;
+}
+
+.details{
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: royalblue
+}
+
+#name-edit{
+    font-size: 20px;
+  
+}
+
+#unread{
+    background-color: darkgreen;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    border-radius: 15px;
+}
+@media (min-width: 1200px) { 
+    .footer{
+        width:108.7%;
+    }
+ }
